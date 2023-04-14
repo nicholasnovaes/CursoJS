@@ -1,0 +1,44 @@
+Java Script
+
+Transformar string para number:
+Number(n)
+Number.parseInfloat(n)
+Number.parseInt(n)
+
+//nao é necessario o Number;
+
+Transformar number em string:
+
+String(n)
+n.toString()
+
+
+FORMATANDO STRINGS :
+Uma outra forma de concatenar é : 
+//Utilizando CRASE, e obviamente depois de criar as variaveis.
+`O aluno ${nome} com a idade ${idade} anos tirou a nota: ${nota}`;
+
+atributos:
+var s = jabuticaba;
+s.length  //Quantas letras a string possui;
+s.toUpperCase()  //Transforma as letras em maiusculas;
+s.toLowerCase()  //Transforma as letras em minusculas;
+
+
+FORMATANDO NUMEROS:
+> n1
+1545.5
+> n1.toFixed(2)
+'1545.50'
+> n1.toFixed(2).replace('.', ',');
+'1545,50'
+//Nesse exemplo, forcei a variavel ter 2 casas decimais, e logo abaixo substitui o . pela , ;
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+//Nesse exemplo transformamos o numero caso fosse o salario de alguma pessoa no BRASIL;
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+//Nesse exemplo transformamos o numero caso fosse o salario de alguma pessoa no EUA;
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+//Nesse exemplo transformamos o numero caso fosse o salario de alguma pessoa na EUROPA;
