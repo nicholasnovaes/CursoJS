@@ -42,3 +42,22 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
 
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
 //Nesse exemplo transformamos o numero caso fosse o salario de alguma pessoa na EUROPA;
+
+
+Sobre Switch(expressão):   //É OBRIGATORIO O USO DO BREAK APOS FECHAR UM CASE, EXCETO NO DEFAULT;
+
+case valor 1:
+
+break;
+
+case valor 2:
+
+break;
+
+case valor 3:
+
+break;
+
+default:
+
+break;
