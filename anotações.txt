@@ -61,3 +61,26 @@ break;
 default:
 
 break;
+
+
+ARRAYS:
+
+Criar uma array:
+let num = [5, 8, 4, 7, 9]
+
+Adicionar um valor em certa vaga:
+num[3] = 6;
+Nesse caso o valor 6 foi parar na casa 3.
+
+Adicionar um valor no final sem saber qual o numero da vaga:
+num.push(7);
+
+Quantidade de valores que existem na array:
+num.length;
+
+Colocar os elementos em forma crescente:
+num.sort();
+
+Como localizar em que posição certo valor se encontra:
+num.indexOf(7);
+nesse caso se encontraria na posição 3
