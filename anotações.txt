@@ -83,4 +83,4 @@ num.sort();
 
 Como localizar em que posição certo valor se encontra:
 num.indexOf(7);
-nesse caso se encontraria na posição 3
+nesse caso se encontraria na posição 3 
