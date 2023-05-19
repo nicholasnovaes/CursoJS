@@ -13,4 +13,4 @@ console.log(valores.pop()) //esse metodo .pop() Retira o ULTIMO valor da array, 
 delete valores[0]; //Essa é outra forma de retirar elementos do array
 console.log(valores)
 
-console.log(typeof valores);
+console.log(typeof valores); 
