@@ -13,7 +13,7 @@ class CicloFinanceiro {
     }
 
     addLancamentos(...lancamentos){
-        this.lancamentos.forEach(l => this.lancamentos.push(l))
+        lancamentos.forEach(l => this.lancamentos.push(l))
     }
 
     sumario(){
