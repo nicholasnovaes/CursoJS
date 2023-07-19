@@ -24,9 +24,9 @@ const getNotasDaTurma = turma => turma.alunos.map(getNotaAluno)
 const notas1 = escola.map(getNotasDaTurma)
 console.log(notas1)
 
-Array.prototype.flatNap(function(callback){
+Array.prototype.flatMap(function(callback){
     return Array.prototype.concat.apply([], this.map(callback))
 })
 
-const notas2 = escola.flatNap(getNotasDaTurma)
+const notas2 = escola.flatMap(getNotasDaTurma)
 console.log(notas2)
