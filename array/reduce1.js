@@ -8,7 +8,7 @@ const alunos = [
 //Esse loop pega o valor atual e faz algo com o valor seguinte
 //Nesse caso ele soma o valor anterior com o atual, e esse resultado somado com o numero seguinte
 const resultado = alunos.map(a => a.nota).reduce(function (acumulador, atual){
-    console.log(acumulador, atual)
+    //console.log(acumulador, atual)
     return acumulador + atual
 }, 10)
 
